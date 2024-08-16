@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor=Brown text=white>
+	<h1>Order Your Pizza Here</h1>
+	<form action="OrderPizza" method="post">
+	<label>Name</label> <input type=text name=Name><br><br>
+		<label for="size">Select Pizza Size:</label>
+		<select name="size" id="size">
+			<option value="Small">Small</option>
+			<option value="Medium">Medium</option>
+			<option value="Large">Large</option>
+		</select><br><br>
+		<label for="topping">Select Pizza Topping:</label>
+		
+			<br>
+			<input type=checkbox name=Topping value="Cheese">Cheese<br>
+			<input type=checkbox name=Topping value="Pepperoni">Pepperonie<br>
+			<input type=checkbox name=Topping value="Mushroom">Mushroom<br>
+			<input type=checkbox name=Topping value="Onion">Onion<br>
+			<input type=checkbox name=Topping value="Sausage">Sausage<br>
+		<br><br>
+		<label>Select 1 Free Appetizer </label>
+		<input type="radio" name=c2 value="Garlic Bread">Garlic Bread
+		<input type="radio" name=c2 value="Cheese Gralic Bread">Cheese Gralic Bread
+		<input type="radio" name=c2 value="Veg Soup">Veg Soup
+		<input type="radio" name=c2 value="Veg Sandwitch">Veg Sandwitch
+		<br><br>
+		
+		<label>Delivery Address:</label><br>
+		<input type="text" name="address" id="address"><br><br>
+		
+		<label>Credit Card: </label><br>
+		<input type="radio" name=c3 value=Visa>Visa
+		<input type="radio" name=c3 value="Master Card">Master Card
+		<input type="radio" name=c3 value="American Express">American Express<br><br>
+		
+		
+		<label for="ccnumber">Credit Card Number:</label>
+		<input type="text" name="ccnumber" id="ccnumber">
+		<label>Repeat Credit Card Number:</label>
+		<input type=text name=ccnumber>
+		<br><br>
+		<input type="submit" value="Order Pizza">
+	</form>
+</body>
+</html>
